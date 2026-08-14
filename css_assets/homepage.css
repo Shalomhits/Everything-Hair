@@ -1,0 +1,28 @@
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+#hero img {
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    object-fit: cover;
+}
+
+
+#featured-products img {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+header img {
+    width: 180px;
+    height: auto;
+}
