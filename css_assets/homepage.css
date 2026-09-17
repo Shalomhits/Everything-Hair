@@ -91,3 +91,185 @@ header img {
     width: 180px;
     height: auto;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background-color: var(--color-white);
+}
+ 
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+ 
+nav a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+ 
+nav a:hover,
+nav a:focus {
+  color: var(--color-rose-gold);
+}
+ 
+/* --- Hero Section --- */
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 4rem 3rem;
+  background-color: var(--color-blush);
+}
+ 
+.hero-content {
+  flex: 1;
+  max-width: 500px;
+}
+ 
+.hero-image {
+  flex: 1;
+}
+ 
+#hero a {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--color-rose-gold);
+  color: var(--color-white);
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+ 
+#hero a:hover,
+#hero a:focus {
+  background-color: var(--color-warm-gold);
+}
+ 
+/* --- Introduction Section --- */
+#introduction {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+ 
+#introduction a {
+  color: var(--color-rose-gold);
+  font-weight: 600;
+}
+ 
+/* --- Featured Products (card grid) --- */
+#featured-products {
+  padding: 4rem 3rem;
+  text-align: center;
+}
+ 
+#featured-products > article {
+  display: inline-block; /* fallback, overridden by grid wrapper below if you add one */
+}
+ 
+#featured-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+ 
+#featured-products p,
+#featured-products h2 {
+  grid-column: 1 / -1;
+}
+ 
+#featured-products article {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-blush);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+ 
+#featured-products article:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+}
+ 
+#featured-products article a {
+  color: var(--color-rose-gold);
+  font-weight: 600;
+}
+ 
+/* --- Why Choose Us --- */
+#why-choose-us {
+  padding: 4rem 3rem;
+  text-align: center;
+  background-color: var(--color-blush);
+}
+ 
+#why-choose-us {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+ 
+#why-choose-us p:first-child,
+#why-choose-us h2 {
+  grid-column: 1 / -1;
+}
+ 
+#why-choose-us article {
+  background-color: var(--color-white);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+ 
+/* --- Call to Action --- */
+#call-to-action {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+ 
+#call-to-action a {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--color-rose-gold);
+  color: var(--color-white);
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+ 
+#call-to-action a:hover,
+#call-to-action a:focus {
+  background-color: var(--color-warm-gold);
+}
+ 
+/* --- Footer --- */
+footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  padding: 3rem;
+  background-color: var(--color-charcoal);
+  color: var(--color-white);
+}
+ 
+footer h2 {
+  font-size: 1.25rem;
+  color: var(--color-white);
+}
+ 
+footer a {
+  color: var(--color-blush);
+}
+ 
+footer a:hover,
+footer a:focus {
+  color: var(--color-warm-gold);
+}
+ 
