@@ -211,3 +211,54 @@ Everything-Hair/
 │
 └── README.md
 
+# 11. Design Aesthetic (Part 2)
+
+## 11.1 Colour Palette
+
+- Rose Gold `#B76E79` — primary accent, buttons, hover states
+- Soft Blush `#F7D4D4` — backgrounds, section highlights
+- Warm Gold `#C9A83E` — secondary accent, borders, dividers
+- Charcoal `#2C2C2C` — body text, footer background
+
+## 11.2 Typography
+
+- Playfair Display — headings (h1, h2)
+- Raleway — subheadings (h3)
+- Lato — body text
+
+---
+
+# 12. Changelog
+
+- 2026-08-30 — Added design aesthetic section to README (colour palette, typography)
+- 2026-09-03 — Added References section to README
+- 2026-09-04 — Added classes to unlabelled div elements for CSS targeting
+- 2026-09-05 — Created homepage.css and subpages.css and linked them to all pages
+- 2026-09-09 — Added CSS reset and base typography styles
+- 2026-09-10 — Implemented Flexbox/Grid layout for hero, featured products, mission/vision and gallery sections
+- 2026-09-10 — Added hover/focus/active states to nav links, buttons and form fields
+- 2026-09-10 — Added media queries for tablet and mobile breakpoints
+- 2026-09-10 — Added responsive screenshots (desktop, tablet, mobile) to README
+- 2026-09-11 — Expanded HTML comments across pages
+
+---
+
+# 13. References
+
+Google Fonts (2024) Playfair Display, Raleway, Lato, Great Vibes. Available at: https://fonts.google.com/ (Accessed: 2 August 2026).
+
+HostAfrica (2024) Web Hosting Pricing. Available at: https://www.hostafrica.co.za/ (Accessed: 2 August 2026).
+
+HubSpot (2024) E-commerce Website Best Practices. Available at: https://blog.hubspot.com/marketing/ecommerce-website-best-practices (Accessed: 2 August 2026).
+
+Mozilla Developer Network (MDN) (2024) HTML: HyperText Markup Language. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML (Accessed: 2 August 2026).
+
+PayFast (2024) Payment Gateway for South Africa. Available at: https://www.payfast.co.za/ (Accessed: 2 August 2026).
+
+Shopify (2024) How to Start an Online Store. Available at: https://www.shopify.com/blog/how-to-start-online-store (Accessed: 2 August 2026).
+
+Small Business Administration (2024) Create a Marketing Plan. Available at: https://www.sba.gov/business-guide/plan-your-business/marketing-sales (Accessed: 2 August 2026).
+
+The Independent Institute of Education (2026) WEDE5020POE: Web Development Project Guidelines. [Course Document]. The Independent Institute of Education (Pty) Ltd.
+
+W3Schools (2024) HTML Tutorial. Available at: https://www.w3schools.com/html/ (Accessed: 2 August 2026).

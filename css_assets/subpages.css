@@ -1,3 +1,68 @@
+:root {
+  --color-rose-gold: #B76E79;
+  --color-blush: #F7D4D4;
+  --color-warm-gold: #C9A83E;
+  --color-charcoal: #2C2C2C;
+  --color-white: #FFFFFF;
+}
+ 
+/* --- CSS Reset --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+html {
+  scroll-behavior: smooth;
+}
+ 
+ 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ 
+ul {
+  list-style: none;
+}
+ 
+/* --- Base Typography --- */
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-charcoal);
+  background-color: var(--color-white);
+}
+ 
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  color: var(--color-charcoal);
+  line-height: 1.2;
+  margin-bottom: 0.75em;
+}
+ 
+h1 {
+  font-size: 2.5rem;
+}
+ 
+h2 {
+  font-size: 2rem;
+}
+ 
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: var(--color-charcoal);
+  margin-bottom: 0.5em;
+}
+ 
+p {
+  margin-bottom: 1em;
+}
+
 img {
     max-width: 100%;
     height: auto;
