@@ -10,7 +10,7 @@ The project is being developed in three stages:
 - Part 2: Designing the Visuals
 - Part 3: Adding Functionality and SEO
 
-The current version of this repository focuses on Part 1, which establishes the website structure, content, navigation, file organisation and basic HTML implementation.
+The current version of this repository reflects Part 2, which builds on the Part 1 foundation by adding CSS styling, layout, colour and typography and responsive design across all pages.
 
 ---
 
@@ -23,7 +23,7 @@ The current version of this repository focuses on Part 1, which establishes the 
 **Institution:** The Independent Institute of Education (IIE)  
 **Project:** Everything Hair  
 **Assessment:** Portfolio of Evidence (POE)  
-**Part:** Part 1 – Building the Foundation  
+**Part:** Part 2 – Designing the Visuals  
 
 ---
 
@@ -203,13 +203,22 @@ Everything-Hair/
 ├── faq.html
 ├── contact.html
 │
-├── css/
+├── css_assets/
+│   ├── homepage.css
+│   └── subpages.css
 │
-├── js/
+├── js_assets/
+│   ├── homepage.js
+│   └── subpages.js
 │
-├── images/
+├── _images/
 │
-└── README.md
+├── screenshots/
+│
+├── README.md
+│
+└── WEDE Proposal.docx
+
 
 # 11. Design Aesthetic (Part 2)
 
@@ -230,16 +239,13 @@ Everything-Hair/
 
 # 12. Changelog
 
-- 2026-08-30 — Added design aesthetic section to README (colour palette, typography)
-- 2026-09-03 — Added References section to README
-- 2026-09-04 — Added classes to unlabelled div elements for CSS targeting
-- 2026-09-05 — Created homepage.css and subpages.css and linked them to all pages
-- 2026-09-09 — Added CSS reset and base typography styles
-- 2026-09-10 — Implemented Flexbox/Grid layout for hero, featured products, mission/vision and gallery sections
-- 2026-09-10 — Added hover/focus/active states to nav links, buttons and form fields
-- 2026-09-10 — Added media queries for tablet and mobile breakpoints
-- 2026-09-10 — Added responsive screenshots (desktop, tablet, mobile) to README
-- 2026-09-11 — Expanded HTML comments across pages
+- 2026-09-16 — Added design aesthetic section to README (colour palette, typography)
+- 2026-09-16 — Added References section to README
+- 2026-09-17 — Added colour variables, CSS reset and base typography to homepage.css and subpages.css
+- 2026-09-17 — Added hero-content and hero-image classes to index.html; added layout styling for nav, hero, featured products, why-choose-us and footer in homepage.css
+- 2026-09-17 — Added layout styling for about, products, enquiry, contact and faq pages in subpages.css
+- 2026-09-18 — Added responsive breakpoints for tablet and mobile to homepage.css and subpages.css
+- 2026-09-18 — Added home and about page screenshots to README
 
 ---
 
