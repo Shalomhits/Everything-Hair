@@ -262,3 +262,29 @@ Small Business Administration (2024) Create a Marketing Plan. Available at: http
 The Independent Institute of Education (2026) WEDE5020POE: Web Development Project Guidelines. [Course Document]. The Independent Institute of Education (Pty) Ltd.
 
 W3Schools (2024) HTML Tutorial. Available at: https://www.w3schools.com/html/ (Accessed: 2 August 2026).
+
+# 14. Responsive Screenshots
+
+Screenshots below show the Everything Hair website tested at desktop, tablet and mobile widths using browser developer tools.
+
+## 14.1 Home Page
+
+**Desktop (1200px)**
+![Home page desktop view](screenshots/homepage-desktop.png)
+
+**Tablet (768px)**
+![Home page tablet view](screenshots/homepage-tablet.png)
+
+**Mobile (480px)**
+![Home page mobile view](screenshots/homepage-mobile.png)
+
+## 14.2 About Page
+
+**Desktop (1200px)**
+![About page desktop view](screenshots/about-desktop.png)
+
+**Tablet (768px)**
+![About page tablet view](screenshots/about-tablet.png)
+
+**Mobile (480px)**
+![About page mobile view](screenshots/about-mobile.png)
