@@ -246,6 +246,7 @@ Everything-Hair/
 - 2026-09-17 — Added layout styling for about, products, enquiry, contact and faq pages in subpages.css
 - 2026-09-18 — Added responsive breakpoints for tablet and mobile to homepage.css and subpages.css
 - 2026-09-18 — Added home and about page screenshots to README
+- 27 October 2026: Part 2 feedback fix, navigation menu. Feedback said menu adjustments were incomplete on tablet and mobile (2/5). Added a hamburger menu button to all six pages, a script.js file to open and close the menu and updated homepage.css and subpages.css so the links collapse at 768px and below and stack vertically with larger tap targets.
 
 ---
 
