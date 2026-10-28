@@ -407,6 +407,29 @@ button[type="reset"] {
   border-radius: 8px;
   padding: 1.5rem;
 }
+
+#contact-details > h2,
+#locations > h2,
+#next-steps > h2 {
+  grid-column: 1 / -1;
+}
+
+#locations > p {
+  grid-column: 1 / -1;
+}
+
+#locations > h2,
+#locations > p {
+  text-align: center;
+}
+
+#contact-details article a {
+  max-width: 100%;
+  margin: 0.5rem 0;
+  overflow-wrap: anywhere;
+  font-size: 0.85rem;
+  padding: 0.75rem 0.5rem;
+}
  
 #locations {
   display: grid;
@@ -691,3 +714,48 @@ footer a:focus {
   }
 }
  
+
+/* --- Desktop layout fixes (769px and above) --- */
+@media (min-width: 769px) {
+  #our-values {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  #target-audience,
+  #contact-details {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #locations {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+    #gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #next-steps {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+#gallery > h2 {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+figure img {
+  margin: 0 auto;
+}
+
+section:has(> form) > h2,
+section:has(> form) > p {
+  text-align: center;
+  padding: 0 1.5rem;
+}
+
+@media (min-width: 769px) {
+  #next-steps {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
