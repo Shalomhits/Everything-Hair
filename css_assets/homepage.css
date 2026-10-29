@@ -399,3 +399,9 @@ footer a:focus {
 }
  
  
+
+@media (min-width: 769px) {
+  #featured-products {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
