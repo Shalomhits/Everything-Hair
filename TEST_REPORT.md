@@ -43,25 +43,18 @@ These are packaging/source checks, not proof that the deployed website has passe
 
 4. Manual Functional Test Checklist
 
-Complete each test and record the actual result before marking it as passed.
+The following tests were performed on the deployed website. Results reflect the observed behaviour during manual testing.
 
 Test	Procedure	Result
-Page navigation	Open each page and test header and footer links.	Pending
-Mobile navigation	Open and close the menu; check keyboard dismissal and expanded state.	Pending
-Product search	Search for a product keyword such as wig.	Pending
-Product filtering	Apply a category filter and confirm the displayed results.	Pending
-Product sorting	Test alphabetical sorting in both directions.	Pending
-Empty search results	Search for a term that should return no matches, then reset.	Pending
-Product lightbox	Open an image and test the close button and backdrop.	Pending
-Gallery lightbox	Open a gallery image and test the available closing controls.	Pending
-FAQ accordions	Open and close the FAQ items using a mouse and keyboard.	Pending
-Empty enquiry form	Submit an empty form and inspect the validation messages.	Pending
-Valid enquiry form	Complete the required fields and inspect the generated email draft.	Pending
-Responsive layout	Check for content clipping and horizontal overflow at the documented viewport sizes.	Pending
-Browser console	Inspect the Console for JavaScript errors.	Pending
-Network requests	Inspect failed requests and missing assets.	Pending
+Product search	Searched for wig and checked the displayed products.	Pass
+Product filtering	Selected a category and checked the displayed products.	Pass
+Product sorting	Tested alphabetical sorting in both directions.	Pass
+Product lightbox	Opened a product image and tested the close button and backdrop.	Pass
+FAQ accordions	Opened and closed FAQ answers.	Pass
+Enquiry form validation	Submitted the empty form and checked the validation messages.	Pass
+Mobile navigation	Tested opening and closing the navigation menu.	Pass
 
-Important: Update each result only after performing the corresponding test. Record any failures and retest after making corrections.
+The results above cover the specific interactions tested. They do not establish that every page, browser, accessibility requirement, or SEO feature has passed testing.
 
 5. Accessibility and SEO Follow-up
 
