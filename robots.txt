@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://shalomhits.github.io/Everything-Hair/sitemap.xml

@@ -1,594 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="en-ZA">
 <head>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- SEO information -->
-    <meta name="description"
-        content="Make an enquiry about Everything Hair products, including human hair, braiding hair, French curl hair, frontal laces, closures and custom wigs.">
-
-    <meta name="author" content="Everything Hair">
-
-    
-    <title>Enquiry / Order | Everything Hair</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Raleway:wght@400;600&family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css_assets/subpages.css">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#321c27">
+  <meta name="description" content="Ask Everything Hair about product options, lengths, pricing and availability using the product enquiry form.">
+  <meta name="keywords" content="hair extensions, wigs, braiding hair, Everything Hair, South Africa">
+  <meta name="author" content="Everything Hair">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Everything Hair">
+  <meta property="og:title" content="Product Enquiry | Everything Hair">
+  <meta property="og:description" content="Ask Everything Hair about product options, lengths, pricing and availability using the product enquiry form.">
+  <title>Product Enquiry | Everything Hair</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css_assets/site.css">
+  <script src="js_assets/main.js" defer></script>
 </head>
-
 <body>
-
-    
-    <header>
-
-        
-        <div>
-    <a href="index.html">
-        <img src="_images/page/Everything-hair-logo2.jpeg"
-            alt="Everything Hair logo">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="Everything Hair home">
+      <img src="_images/page/Everything-hair-logo2.jpeg" alt="Everything Hair" width="72" height="72">
+      <span><strong>Everything Hair</strong><small>Beauty, your way.</small></span>
     </a>
-</div>
-
-        <nav>
-            <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="main-menu">☰ Menu</button>
-
-            <ul id="main-menu">
-
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-
-                <li>
-                    <a href="about.html">About Us</a>
-                </li>
-
-                <li>
-                    <a href="products.html">Products</a>
-                </li>
-
-                <li>
-                    <a href="enquiry.html">Enquiry / Order</a>
-                </li>
-
-                <li>
-                    <a href="faq.html">FAQ / Gallery</a>
-                </li>
-
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-
-            </ul>
-
-        </nav>
-
-    </header>
-
-
-   
-    <main>
-
-      
-        <section id="enquiry-introduction">
-
-            <p>We Are Here to Help</p>
-
-            <h2>Make an Enquiry</h2>
-
-            <p>
-                Not sure which product is right for you? Tell us what
-                you are looking for and we will help you find an option
-                that suits your style and needs.
-            </p>
-
-            <p>
-                You can also use this form if you are ready to enquire
-                about placing an order.
-            </p>
-
-        </section>
-
-
-        
-        <section id="enquiry-form">
-
-            <h2>Tell Us What You Need</h2>
-
-            <form action="#" method="post">
-
-                
-
-                <fieldset>
-
-                    <legend>Your Information</legend>
-
-
-                    
-                    <div>
-
-                        <label for="full-name">
-                            Full Name:
-                        </label>
-
-                        <input
-                            type="text"
-                            id="full-name"
-                            name="full-name"
-                            placeholder="Enter your full name"
-                            required
-                        >
-
-                    </div>
-
-
-                   
-                    <div>
-
-                        <label for="email">
-                            Email Address:
-                        </label>
-
-                        <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            placeholder="Enter your email address"
-                            required
-                        >
-
-                    </div>
-
-
-                   
-                    <div>
-
-                        <label for="phone">
-                            Phone Number:
-                        </label>
-
-                        <input
-                            type="tel"
-                            id="phone"
-                            name="phone"
-                            placeholder="Enter your phone number"
-                            required
-                        >
-
-                    </div>
-
-                </fieldset>
-
-
-                
-
-                <fieldset>
-
-                    <legend>Product Information</legend>
-
-
-                    
-                    <div>
-
-                        <label for="product">
-                            What are you interested in?
-                        </label>
-
-                        <select id="product" name="product" required>
-
-                            <option value="">
-                                Please select a product
-                            </option>
-
-                            <option value="human-hair">
-                                Human Hair Bundles
-                            </option>
-
-                            <option value="braiding-hair">
-                                Synthetic Braiding Extensions
-                            </option>
-
-                            <option value="french-curl">
-                                French Curl Hair
-                            </option>
-
-                            <option value="frontal-lace">
-                                Frontal Lace
-                            </option>
-
-                            <option value="closure">
-                                Pre-Plugged Frontal Closure
-                            </option>
-
-                            <option value="custom-wig">
-                                Custom Wig
-                            </option>
-
-                            <option value="other">
-                                Other
-                            </option>
-
-                        </select>
-
-                    </div>
-
-
-                    
-                    <div>
-
-                        <label for="quantity">
-                            Quantity:
-                        </label>
-
-                        <input
-                            type="number"
-                            id="quantity"
-                            name="quantity"
-                            min="1"
-                            placeholder="Enter quantity"
-                        >
-
-                    </div>
-
-
-                   
-                    <div>
-
-                        <label for="colour">
-                            Preferred Colour:
-                        </label>
-
-                        <input
-                            type="text"
-                            id="colour"
-                            name="colour"
-                            placeholder="For example: Natural Black"
-                        >
-
-                    </div>
-
-
-                    
-                    <div>
-
-                        <label for="length">
-                            Preferred Length:
-                        </label>
-
-                        <input
-                            type="text"
-                            id="length"
-                            name="length"
-                            placeholder="For example: 18 inches"
-                        >
-
-                    </div>
-
-                </fieldset>
-
-
-
-                <fieldset>
-
-                    <legend>Additional Details</legend>
-
-
-                    <!-- Type of enquiry -->
-                    <div>
-
-                        <p>
-                            What would you like to do?
-                        </p>
-
-
-                        <input
-                            type="radio"
-                            id="product-enquiry"
-                            name="enquiry-type"
-                            value="product-enquiry"
-                            required
-                        >
-
-                        <label for="product-enquiry">
-                            Ask about a product
-                        </label>
-
-
-                        <input
-                            type="radio"
-                            id="place-order"
-                            name="enquiry-type"
-                            value="place-order"
-                        >
-
-                        <label for="place-order">
-                            Enquire about placing an order
-                        </label>
-
-
-                        <input
-                            type="radio"
-                            id="custom-request"
-                            name="enquiry-type"
-                            value="custom-request"
-                        >
-
-                        <label for="custom-request">
-                            Custom request
-                        </label>
-
-                    </div>
-
-
-                   
-                    <div>
-
-                        <label for="message">
-                            Tell us more about what you need:
-                        </label>
-
-                        <textarea
-                            id="message"
-                            name="message"
-                            rows="6"
-                            placeholder="Tell us about the style, product or occasion you have in mind."
-                            required
-                        ></textarea>
-
-                    </div>
-
-                </fieldset>
-
-
-                
-
-                <fieldset>
-
-                    <legend>Preferred Contact Method</legend>
-
-                    <p>
-                        How would you prefer us to contact you?
-                    </p>
-
-
-                    <input
-                        type="radio"
-                        id="contact-email"
-                        name="contact-method"
-                        value="email"
-                        required
-                    >
-
-                    <label for="contact-email">
-                        Email
-                    </label>
-
-
-                    <input
-                        type="radio"
-                        id="contact-phone"
-                        name="contact-method"
-                        value="phone"
-                    >
-
-                    <label for="contact-phone">
-                        Phone
-                    </label>
-
-
-                    <input
-                        type="radio"
-                        id="contact-whatsapp"
-                        name="contact-method"
-                        value="whatsapp"
-                    >
-
-                    <label for="contact-whatsapp">
-                        WhatsApp
-                    </label>
-
-                </fieldset>
-
-
-                
-
-                <div>
-
-                    <button type="submit">
-                        Send Enquiry
-                    </button>
-
-                    <button type="reset">
-                        Clear Form
-                    </button>
-
-                </div>
-
-            </form>
-
-        </section>
-
-
-        
-
-        <section id="next-steps">
-
-            <h2>What Happens After You Enquire?</h2>
-
-            <article>
-
-                <h3>1. We Receive Your Enquiry</h3>
-
-                <p>
-                    Once you submit your details, we can review the
-                    product and style you are interested in.
-                </p>
-
-            </article>
-
-
-            <article>
-
-                <h3>2. We Get Back to You</h3>
-
-                <p>
-                    We will contact you using your preferred contact
-                    method to discuss availability, pricing and any
-                    additional details.
-                </p>
-
-            </article>
-
-
-            <article>
-
-                <h3>3. We Confirm Your Order</h3>
-
-                <p>
-                    Once the product details have been confirmed,
-                    we can discuss the next steps for your order.
-                </p>
-
-            </article>
-
-        </section>
-
-
-       
-
-        <section id="direct-contact">
-
-            <h2>Prefer to Chat Directly?</h2>
-
-            <p>
-                If you have a quick question or would rather speak to
-                someone directly, you can contact Everything Hair
-                through our preferred communication channels.
-            </p>
-
-            <!--
-                The WhatsApp link will be added once the official
-                Everything Hair business number has been confirmed.
-            -->
-
-            <a href="contact.html">
-                View Our Contact Details
-            </a>
-
-        </section>
-
-
-       
-
-        <section id="enquiry-call-to-action">
-
-            <h2>Need Help Choosing?</h2>
-
-            <p>
-                Choosing the right hair does not have to be complicated.
-                Tell us what you are looking for and we will help you
-                work through your options.
-            </p>
-
-            <a href="products.html">
-                View Products
-            </a>
-
-            <a href="contact.html">
-                Contact Us
-            </a>
-
-        </section>
-
-    </main>
-
-
-    
-
-    <footer>
-
-       
-        <div>
-
-            <h2>Everything Hair</h2>
-
-            <p>
-                Quality hair solutions for every style, occasion
-                and individual expression.
-            </p>
-
-        </div>
-
-
-       
-        <div>
-
-            <h2>Quick Links</h2>
-
-            <ul>
-
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-
-                <li>
-                    <a href="about.html">About Us</a>
-                </li>
-
-                <li>
-                    <a href="products.html">Products</a>
-                </li>
-
-                <li>
-                    <a href="enquiry.html">Enquiry / Order</a>
-                </li>
-
-                <li>
-                    <a href="faq.html">FAQ / Gallery</a>
-                </li>
-
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-
-            </ul>
-
-        </div>
-
-
-        
-        <div>
-
-            <h2>Get in Touch</h2>
-
-            <p>
-                Have a question about our products?
-            </p>
-
-            <a href="contact.html">
-                Contact Everything Hair
-            </a>
-
-        </div>
-
-
-        <!-- Copyright -->
-        <div>
-
-            <p>
-                &copy; 2026 Everything Hair. All rights reserved.
-            </p>
-
-        </div>
-
-    </footer>
-
-
-<script src="script.js"></script>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span class="sr-only">Toggle navigation</span><span aria-hidden="true">☰</span></button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li>
+<li><a href="about.html">Our Story</a></li>
+<li><a href="products.html">Shop Hair</a></li>
+<li><a href="faq.html">Hair Guide + Gallery</a></li>
+<li><a href="enquiry.html" aria-current="page">Enquire / Order</a></li>
+<li><a href="contact.html">Contact</a></li></ul></nav>
+    <a class="header-cta" href="enquiry.html">Make an enquiry <span aria-hidden="true">↗</span></a>
+  </div>
+</header>
+<main id="main">
+
+<section class="page-hero page-hero-dark"><div><p class="eyebrow">LET'S FIND YOUR MATCH</p><h1>Tell us what<br><em>you're looking for.</em></h1><p>Share a few details about the style or product you have in mind. This form prepares an enquiry message for you to review before sending.</p></div><div class="enquiry-aside"><span class="aside-star">✳</span><p>Helpful details to include</p><ul><li>Product type</li><li>Preferred length or colour</li><li>Quantity and timing</li><li>Any questions you have</li></ul></div></section>
+<section class="form-section section-pad"><div class="form-intro"><p class="eyebrow">PRODUCT ENQUIRY</p><h2>Let's talk <em>details.</em></h2><p>Fields marked with * are required. No payment is taken on this website.</p></div>
+<form id="enquiry-form" class="contact-form" novalidate>
+  <div class="form-grid">
+    <div class="form-field"><label for="enq-name">Your name *</label><input id="enq-name" name="name" autocomplete="name" required minlength="2"><small class="field-error" id="enq-name-error"></small></div>
+    <div class="form-field"><label for="enq-email">Email address *</label><input id="enq-email" name="email" type="email" autocomplete="email" required><small class="field-error" id="enq-email-error"></small></div>
+    <div class="form-field"><label for="enq-phone">Phone / WhatsApp (optional)</label><input id="enq-phone" name="phone" type="tel" autocomplete="tel"></div>
+    <div class="form-field"><label for="enq-product">Product you're interested in *</label><select id="enq-product" name="product" required><option value="">Choose a product</option><option>Human hair bundles</option><option>Braiding extensions</option><option>Custom wigs</option><option>French curl hair</option><option>Frontal lace and closures</option><option>Other / not sure yet</option></select><small class="field-error" id="enq-product-error"></small></div>
+    <div class="form-field"><label for="enq-length">Preferred length / colour</label><input id="enq-length" name="preferences" placeholder="e.g. 18 inch, natural black"></div>
+    <div class="form-field"><label for="enq-quantity">Quantity (optional)</label><input id="enq-quantity" name="quantity" inputmode="numeric" type="number" min="1" max="100"></div>
+    <div class="form-field form-field-full"><label for="enq-message">Tell us more *</label><textarea id="enq-message" name="message" rows="5" required minlength="10" placeholder="What look are you going for? Any questions about price or availability?"></textarea><small class="field-error" id="enq-message-error"></small></div>
+  </div>
+  <label class="checkbox-field"><input type="checkbox" id="enq-consent" required><span>I understand this form prepares an email draft and does not place an order or process payment. *</span></label>
+  <small class="field-error" id="enq-consent-error"></small>
+  <button class="button button-dark" type="submit">Prepare my enquiry <span aria-hidden="true">↗</span></button>
+  <p class="form-note">Your information stays in this browser until you choose to open and send the draft in your email app. Nothing is sent automatically.</p>
+  <div class="form-status" id="enquiry-status" role="status" aria-live="polite" hidden></div>
+</form></section>
+
+</main>
+<footer class="site-footer">
+  <div class="footer-main">
+    <div><a class="footer-brand" href="index.html">Everything Hair<span>.</span></a><p>Hair that helps you show up as yourself.</p></div>
+    <div><h2>Explore</h2><a href="products.html">Our collection</a><a href="about.html">Our story</a><a href="faq.html">Hair guide & gallery</a></div>
+    <div><h2>Need help?</h2><a href="enquiry.html">Product enquiry</a><a href="contact.html">Contact details</a><p class="small-note">Orders and availability are confirmed directly with the business.</p></div>
+  </div>
+  <div class="footer-bottom"><span>© <span data-year>2026</span> Everything Hair</span><span>Designed with care · South Africa</span></div>
+</footer>
 </body>
-
 </html>
-
