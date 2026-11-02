@@ -1,38 +1,93 @@
-﻿# Technical test report â€” Everything Hair
+Technical Test Report — Everything Hair
 
-**Date:** 2 November 2026
-**Status:** Static-source audit prepared; live browser acceptance testing remains to be performed on the student's machine after extraction/deployment.
+Date: 2 November 2026
+Project: WEDE5020 — Everything Hair
+Deployment: GitHub Pages
+Live website: https://shalomhits.github.io/Everything-Hair/
 
-## Checks run during packaging
-- [x] Confirmed six HTML pages are present.
-- [x] Checked that referenced local image paths exist in the project.
-- [x] Checked unique page titles and descriptions exist.
-- [x] Checked shared stylesheet and JavaScript references are present.
-- [x] Checked project proposal is included.
-- [x] Checked `sitemap.xml` is well-formed XML (its domain is intentionally a placeholder).
-- [x] Checked project documentation includes change log, references and implementation limitations.
-- [ ] Live test on desktop Chrome/Edge.
-- [ ] Live test at mobile viewport and touch device.
-- [ ] Keyboard-only and screen-reader spot check.
-- [ ] Confirm live Google Fonts availability and fallback appearance.
-- [ ] Confirm all source image rights/permissions.
-- [ ] Confirm real business contact details and recipient.
-- [ ] Replace sitemap/robots placeholder with deployed URL.
-- [ ] Validate deployed sitemap and page paths after publishing.
+1. Testing Status
 
-## Manual functional acceptance checklist
-1. Open `index.html` through VS Code Live Server; navigate through every header/footer link.
-2. At a mobile width, open and close the menu; check `aria-expanded` and Escape handling.
-3. On Products, search for â€œwigâ€, filter by category, sort Aâ€“Z and Zâ€“A, search for a nonsense term, then reset.
-4. Open a product image and a gallery image; close with the close button and backdrop. Check keyboard focus returns to the trigger.
-5. Open and close each FAQ accordion using keyboard and mouse.
-6. Submit the enquiry form empty; check inline errors and focus. Fill valid values, accept the acknowledgement, submit and inspect the email draft. Confirm it does not claim an order was sent.
-7. Resize at desktop/tablet/mobile widths; confirm no horizontal overflow.
-8. Use browser devtools Console and Network panels to check for missing files, JavaScript errors and failed requests.
+The website has been deployed to GitHub Pages. Responsive screenshots of the homepage have been captured at desktop, tablet, and mobile viewport sizes.
 
-## Known limitations / not yet verified
-- No actual backend, database, payment gateway or live order placement.
-- No real business email, phone, WhatsApp or social URLs were provided, so none are invented.
-- `mailto:` behaviour depends on a mail app being configured on the visitor's device.
-- Sitemap and robots.txt must be updated with the real published URL.
-- This report does not assert a guaranteed grade or a fully passed live-browser assessment.
+The screenshots document visual checks at the following viewport dimensions:
+
+* Desktop: 1440 × 900 pixels.
+* Tablet: 768 × 1024 pixels.
+* Mobile: 389 × 812 pixels.
+
+These screenshots provide evidence of the homepage appearance at the specified viewport sizes. They do not, by themselves, establish that every page, interactive feature, accessibility requirement, or SEO requirement has passed testing.
+
+2. Responsive Design Evidence
+
+Screenshots are stored in the repository’s screenshots/ directory:
+
+* screenshots/desktop-view.png
+* screenshots/tablet-view.png
+* screenshots/mobile-view.png
+
+The screenshots should be reviewed for layout consistency, content visibility, navigation, image scaling, and horizontal overflow.
+
+3. Source and Project Checks
+
+The project documentation records the following checks as having been performed during packaging:
+
+* Presence of six HTML pages.
+* Existence of referenced local image paths.
+* Presence of page titles and descriptions.
+* Presence of shared stylesheet and JavaScript references.
+* Inclusion of the project proposal.
+* XML formatting of sitemap.xml.
+* Presence of project documentation.
+
+These are packaging/source checks, not proof that the deployed website has passed all browser-based acceptance tests.
+
+4. Manual Functional Test Checklist
+
+Complete each test and record the actual result before marking it as passed.
+
+Test	Procedure	Result
+Page navigation	Open each page and test header and footer links.	Pending
+Mobile navigation	Open and close the menu; check keyboard dismissal and expanded state.	Pending
+Product search	Search for a product keyword such as wig.	Pending
+Product filtering	Apply a category filter and confirm the displayed results.	Pending
+Product sorting	Test alphabetical sorting in both directions.	Pending
+Empty search results	Search for a term that should return no matches, then reset.	Pending
+Product lightbox	Open an image and test the close button and backdrop.	Pending
+Gallery lightbox	Open a gallery image and test the available closing controls.	Pending
+FAQ accordions	Open and close the FAQ items using a mouse and keyboard.	Pending
+Empty enquiry form	Submit an empty form and inspect the validation messages.	Pending
+Valid enquiry form	Complete the required fields and inspect the generated email draft.	Pending
+Responsive layout	Check for content clipping and horizontal overflow at the documented viewport sizes.	Pending
+Browser console	Inspect the Console for JavaScript errors.	Pending
+Network requests	Inspect failed requests and missing assets.	Pending
+
+Important: Update each result only after performing the corresponding test. Record any failures and retest after making corrections.
+
+5. Accessibility and SEO Follow-up
+
+The following items require further verification:
+
+* Keyboard-only navigation across all pages.
+* Appropriate focus handling for interactive components.
+* Screen-reader spot checks.
+* Browser console and network errors.
+* Page-specific metadata on the deployed pages.
+* Google Fonts availability and fallback appearance.
+* Correct deployed URLs in robots.txt and sitemap.xml.
+* Image loading and alternative text.
+* Image ownership, licensing, and permission records.
+
+6. Known Limitations
+
+* The website is a static prototype without a backend, database, payment gateway, or live order processing.
+* The enquiry form prepares a mailto: draft; it does not submit data to a server.
+* Email-draft functionality depends on the visitor’s device and mail configuration.
+* Verified business contact information and social media URLs were not provided.
+* Image ownership and licensing have not yet been verified.
+* The sitemap and robots file must be reviewed against the deployed website URL.
+
+7. Conclusion
+
+The website is deployed, and responsive screenshots of the homepage have been captured at three viewport sizes. Additional manual functional, accessibility, SEO, and cross-browser checks remain outstanding until they are performed and documented.
+
+This report records the current evidence and outstanding checks. It does not claim that all tests have passed or guarantee an assessment result.
