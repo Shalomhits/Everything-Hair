@@ -1,9 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://shalomhits.github.io/Everything-Hair/</loc></url>
-  <url><loc>https://shalomhits.github.io/Everything-Hair/about.html</loc></url>
-  <url><loc>https://shalomhits.github.io/Everything-Hair/products.html</loc></url>
-  <url><loc>https://shalomhits.github.io/Everything-Hair/enquiry.html</loc></url>
-  <url><loc>https://shalomhits.github.io/Everything-Hair/faq.html</loc></url>
-  <url><loc>https://shalomhits.github.io/Everything-Hair/contact.html</loc></url>
+  <url>
+    <loc>https://shalomhits.github.io/Everything-Hair/</loc>
+  </url>
+  <url>
+    <loc>https://shalomhits.github.io/Everything-Hair/about.html</loc>
+  </url>
+  <url>
+    <loc>https://shalomhits.github.io/Everything-Hair/products.html</loc>
+  </url>
+  <url>
+    <loc>https://shalomhits.github.io/Everything-Hair/enquiry.html</loc>
+  </url>
+  <url>
+    <loc>https://shalomhits.github.io/Everything-Hair/faq.html</loc>
+  </url>
+  <url>
+    <loc>https://shalomhits.github.io/Everything-Hair/contact.html</loc>
+  </url>
 </urlset>
